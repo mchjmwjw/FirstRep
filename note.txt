@@ -1,0 +1,5 @@
+1vh = 1/100 的视口(viewpoint)高度
+1vw = 1/100 的视口宽度
+
+//过渡效果: 属性 时长(s 或 ms) 速度曲线 何时开始
+transition: property duration timing-function delay;

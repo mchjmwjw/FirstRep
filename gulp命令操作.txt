@@ -1,0 +1,14 @@
+.01 全局安装gulp
+    npm install --global gulp
+
+.1  作为项目的开发依赖
+    npm install --save-dev gulp
+
+.2  创建一个 gulpfile.js 文件
+    var gulp = require('gulp');
+    gulp.task('default', function() {
+       //默认的代码任务
+    });
+
+.3  运行gulp
+    gulp
