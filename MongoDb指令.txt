@@ -35,6 +35,7 @@ distinct的用法
 	{ "_id": 3, "dept": "B", "item": { "sku": "222", "color": "blue" }, "sizes": "S" }
 	{ "_id": 4, "dept": "A", "item": { "sku": "333", "color": "black" }, "sizes": [ "S" ] }
 	db.collection.distinct("dept")
+<<<<<<< HEAD
 	=>  ["A","B"]
 
 winsows服务
@@ -42,3 +43,6 @@ winsows服务
 1. --install 改成 --remove 就是删除该自启服务
 2. net start MongoDB 开启MongoDB
 3. net stop MongoDB 关闭MongoDB
+=======
+	=>  ["A","B"]
+>>>>>>> 668e171373a2106702722989ae6be454f2c5f7a1

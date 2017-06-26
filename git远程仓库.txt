@@ -29,6 +29,7 @@
 
 从分支获取指定文件
 git checkout master -- <path>/<file>
+<<<<<<< HEAD
 exp:  git checkout master -- public/stylesheets/styles.css
 
 查看分支 git branch
@@ -42,3 +43,6 @@ exp:  git checkout master -- public/stylesheets/styles.css
 覆盖
 git fetch origin
 git reset --hard origin/master
+=======
+exp:  git checkout master -- public/stylesheets/styles.css
+>>>>>>> 668e171373a2106702722989ae6be454f2c5f7a1
