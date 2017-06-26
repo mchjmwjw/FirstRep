@@ -1,0 +1,12 @@
+1. cnpm i -g webpack
+   cnpm i -D webpack
+
+2. cnpm install --save-dev webpack-dev-server
+   cnpm i -D html-webpack-plugin
+   cnpm i -D css-loader
+   cnpm i -D json-loader
+   cnpm i -D style-loader
+   cnpm i -D postcss-loader
+   cnpm i -D babel-loader
+   cnpm i -D extract-text-webpack-plugin
+

@@ -1,0 +1,23 @@
+使用淘宝镜像
+
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+cnpm install node-sass
+
+
+npm install takes 3 exclusive, optional flags which save or update the package version in your main package.json:
+
+-S, --save: Package will appear in your dependencies.
+-D, --save-dev: Package will appear in your devDependencies.
+-O, --save-optional: Package will appear in your optionalDependencies.
+from https://docs.npmjs.com/cli/install
+
+nrm -- 管理npm源的工具
+nrm ls 列出所有源
+nrm use cnpm 切换到cnpm源
+
+npm config set save-exact true
+此命令用于npm安装包时锁定包的版本号
+
+npm shrinkwrap 同样用于锁定版本号
+
+supervisor --harmony index 和谐模式启动node

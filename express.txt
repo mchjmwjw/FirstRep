@@ -1,0 +1,15 @@
+router = express.Router();
+router.get(子路径, function(req, res, next){});
+app.use(根路径, router);
+
+
+Application Settings(应用设置??)
+	If name is one of the application settings, it affects the behavior of the application. The following table lists application settings.
+	http://www.expressjs.com.cn/4x/api.html#app.settings.table
+
+ejs 模板引擎:
+1. <% code %>：运行 JavaScript 代码，不输出
+2. <%= code %>：显示转义后的 HTML内容( html 字符串 )
+3. <%- code %>：显示原始 HTML 内容 (正常的html, 解析后展示 )
+
+next(error); 会直接返回错误，不会传递到下一个中间件

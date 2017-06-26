@@ -1,0 +1,14 @@
+1. 创建迁移仓库
+python manage.py db init	(只需执行一次)
+
+2. 创建迁移脚本
+python manage.py db migrate -m "initial migration"
+
+3. 更新数据库
+python manage.py db upgrade
+
+4. 部署在iis
+	已经在配置提交路径“MACHINE/WEBROOT/APPHOST”向“MACHINE/WEBROOT/APPHOST”的“system.webServer/fastCgi”节应用了配置更改
+"e:\software64\python2.7.12\python.exe|e:\software64\python2.7.12\lib\site-packages\wfastcgi.pyc" can now be used as a FastCGI script processor
+
+g:\codenew\jixie-backend\venv\scripts\python.exe|g:\codenew\jixie-backend\venv\lib\site-packages\wfastcgi.pyc

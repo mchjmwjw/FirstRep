@@ -1,0 +1,39 @@
+﻿http://192.168.8.2/i6
+1. 模块导入 -- require()
+	var math = require('math');
+
+2. 模块导出 -- exports
+	module的一个属性，用于导出当前模块的方法或变量，是导出的唯一出口
+	exports.add = function(){...};
+	exports.name = 'paul';
+
+3. package.json (CommonJs包规范定义的包描述文件)
+   * node 通过JSON.parse()解析出包描述对象
+   * 从中取出main属性的文件名进行定位
+   * 若main的路径错误或没有package.json，Node会将index当作默认文件名(index.js > index.json > index.node)
+
+4. 文件模块的定义
+	function Module(id, parent) {
+		this.id = id;
+		this.exports = {};
+		this.parent = parent;
+		if(parent && parent.children) {
+			parent.children.push(this);
+		}
+		this.filename = null;
+		this.loaded = false;
+		this.children = [];
+	}
+
+5. 系统中已有的扩展加载方式: .js .json .node
+   自定义扩展:
+   		require.extensions['.bcp'] = function() {...};
+
+6. 编译过程中, Node对获取的JavaScript文件内容进行头尾包装:
+	(funciton(exports, require, module, __filename, __dirname) {
+		...
+	});
+
+7. 使用module.exports, 否则使用exports只会更改形参的引用，对作用域外的值没有影响
+
+8. Node在启动时，会生成一个全局变量process, 并提供Binding()方法来协助加载内建模块

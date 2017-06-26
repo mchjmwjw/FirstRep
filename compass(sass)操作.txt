@@ -1,0 +1,22 @@
+1. 安装compass （ruby-cmd）
+   gem install compass
+
+2. 创建Compass项目
+   compass create myproject
+
+3. config.rb    -->  项目配置文件
+   sass         -->  存放.scss文件
+   stylesheets  -->  存放sass目录下的文件编译后的.css文件
+
+4.1. Compass编译
+     compass compile
+
+4.2  编译生成压缩后的css文件
+     compass compile --output--style compressed
+
+4.3  Compass只编译发生变动的文件
+     若需要重新编译未变动的文件
+     compass compile --force
+    
+   
+
