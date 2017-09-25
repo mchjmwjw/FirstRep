@@ -43,6 +43,11 @@ winsows服务
 1. --install 改成 --remove 就是删除该自启服务
 2. net start MongoDB 开启MongoDB
 3. net stop MongoDB 关闭MongoDB
+
+异常结局方案:
+1. 删除 data 文件夹下的所有文件
+2. mongod.exe --repair
+ 
 =======
 	=>  ["A","B"]
 >>>>>>> 668e171373a2106702722989ae6be454f2c5f7a1

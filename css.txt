@@ -1,0 +1,41 @@
+1. transform 旋转/平移/放大缩小
+    transform: rotate(360deg); 顺时针旋转360度
+    transform: rotate(-360deg); 逆时针旋转360度
+    transform: translateY(10px); 向下移动10px
+    transform: translateY(-10px); 向上移动10px
+    translateX: 左（负）右（正）
+    translateZ: 放大(正)缩小（负）
+
+2. outline （轮廓）是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。
+3. box-sizing 以特定的方式定义匹配某个区域的特定元素
+    box-sizing: boder-box; 令浏览器呈现出带有指定宽度和高度的框，并把边框和内边距放入框中
+4. transition: 动画/过渡效果,4个属性组成
+    transition-delay: 开始过渡效果前等待的时间
+    transition-duration: 指定过渡动画所需的时间(s/ms)
+    transition-property: 过渡属性名称
+    transition-timing-function: 变化函数/变化类型
+
+    注意：在transition属性中，各个值的书写顺序是很重要的：
+            第一个可以解析为时间的值会被赋值给transition-duration，
+            第二个可以解析为时间的值会被赋值给transition-delay。
+    /* Apply to 1 property */
+    
+    /* property name | duration */
+    transition: margin-left 4s;
+
+    /* property name | duration | delay */
+    transition: margin-left 4s 1s;
+
+    /* property name | duration | timing function | delay */
+    transition: margin-left 4s ease-in-out 1s;
+
+    /* Apply to 2 properties */
+    transition: margin-left 4s, color 1s;
+
+    /* Apply to all changed properties */
+    transition: all 0.5s ease-out;
+
+    /* Global values */
+    transition: inherit;
+    transition: initial;
+    transition: unset;

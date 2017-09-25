@@ -1,0 +1,2 @@
+同一张表，将字段2的数据赋值给字段1
+update table_name set col1=col2

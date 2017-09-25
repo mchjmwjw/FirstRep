@@ -1,1 +1,11 @@
-1. node 的异常存放在回调函数的第一个参数(约定俗成)
+﻿1. node 的异常存放在回调函数的第一个参数(约定俗成)
+2. exports 与 module.exports
+   exports 只会改变形参的值，不会改变外部作用域的值 
+   如果要达到 require 引入一个类的效果，请赋值给 module.exports 对象
+   
+   (function (exports, require, module, __filename, __dirname) {
+	var math = require('math');
+	exports.area = function (radius) {
+		return Math.PI * radius * radius;
+	};
+   });
