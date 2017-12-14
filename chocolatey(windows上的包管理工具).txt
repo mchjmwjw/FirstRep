@@ -1,0 +1,9 @@
+https://chocolatey.org/
+https://chocolatey.org/docs
+
+命令:
+1. 升级: choco upgrade chocolatey
+2. 安装: choco install docker
+3. 卸载: choco uninstall nodejs
+4. 包升级: choco upgrade nodejs
+5. 查找: choco search nodejs
