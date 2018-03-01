@@ -53,3 +53,9 @@ const-rgx:
     * 元祖中元素不能修改
     * 元祖可以拼接
 13. repr() 将对象转换为供解释器读取的形式
+14. 时间time 文档: [python-time-格式化](https://docs.python.org/3/library/time.html#time.strftime)
+
+15. pyinstaller : 
+    * 安装: pip install pyinstaller
+    * 打包生成(生成单文件): pyinstaller -F mycript.py 
+16. [string, formate](https://docs.python.org/2/library/string.html)

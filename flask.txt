@@ -1,14 +1,14 @@
-1. ´´½¨Ç¨ÒÆ²Ö¿â
-python manage.py db init	(Ö»ĞèÖ´ĞĞÒ»´Î)
+ï»¿1. åˆ›å»ºè¿ç§»ä»“åº“
+python manage.py db init	(åªéœ€æ‰§è¡Œä¸€æ¬¡)
 
-2. ´´½¨Ç¨ÒÆ½Å±¾
+2. åˆ›å»ºè¿ç§»è„šæœ¬
 python manage.py db migrate -m "initial migration"
 
-3. ¸üĞÂÊı¾İ¿â
+3. æ›´æ–°æ•°æ®åº“
 python manage.py db upgrade
 
-4. ²¿ÊğÔÚiis
-	ÒÑ¾­ÔÚÅäÖÃÌá½»Â·¾¶¡°MACHINE/WEBROOT/APPHOST¡±Ïò¡°MACHINE/WEBROOT/APPHOST¡±µÄ¡°system.webServer/fastCgi¡±½ÚÓ¦ÓÃÁËÅäÖÃ¸ü¸Ä
+4. éƒ¨ç½²åœ¨iis
+	å·²ç»åœ¨é…ç½®æäº¤è·¯å¾„â€œMACHINE/WEBROOT/APPHOSTâ€å‘â€œMACHINE/WEBROOT/APPHOSTâ€çš„â€œsystem.webServer/fastCgiâ€èŠ‚åº”ç”¨äº†é…ç½®æ›´æ”¹
 "e:\software64\python2.7.12\python.exe|e:\software64\python2.7.12\lib\site-packages\wfastcgi.pyc" can now be used as a FastCGI script processor
 
 g:\codenew\jixie-backend\venv\scripts\python.exe|g:\codenew\jixie-backend\venv\lib\site-packages\wfastcgi.pyc

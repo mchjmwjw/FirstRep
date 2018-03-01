@@ -1,0 +1,80 @@
+﻿3 线同步学习   7月份以后实现跳槽
+
+资料：https://linux.linuxidc.com/
+密码：www.linuxidc.com
+
+
+基础部分：
+  撸python 核心编程，辅助：python基础 、廖雪峰python教程
+  图解http 图解tcp/ip  计算机网络自顶向下方法
+  Codecademy，MIT导论课
+  
+  js: JS DOM编程艺术  JS语言精粹  js高级编程 
+  
+  python cookbook    编写高质量代码 python
+
+web + 爬虫实战 部分:
+  狗书剩余部分撸完
+  python web开发实战
+  大型网站技术架构
+  https://www.shiyanlou.com/paths/python  撸项目，先撸免费的
+  找个爬虫教程，配合 python核心编程
+
+
+数据库	
+  linux MySQL、redis、celery、docker
+
+
+拓展：
+  前端全家桶系列：js es6 react redux webpack  (vue...)
+  《算法导论》、《sicp》、《csapp》、《TCP/IP》
+  djingo，tornado
+  MySQL入门很简单
+
+
+
+他人总结：
+  
+   Web基础：
+     
+     1. HTTP协议，这个必须学的，post、get、put、head、delete这五种HTTP方法以及它们之间的相同点和不同点；http1.0和http0.9的区别等等，推荐HTTP权威指南 (豆瓣)，不需要全部看完，只需要看完第一、二、三部分，这中间的”集成点：网关、隧道及中继 “以及缓存等等内容，可以先略过不看，同样的方法，这本书看2遍以上，把重要的基础概念用纸笔抄下来，整合到一起，然后背熟。
+     
+     2. TCP/IP协议，没怎么看，只是HTTP权威指南这本书里提到过一些，也背熟了，所以这部分我学得其实不多，但是面试够用了。
+     
+     3. WSGI，这个基本上是Python网络开发中最重要的点，服务器怎么调用中间件以及应用层的代码，你的应用怎么利用服务器软件(apache之类)接收、解析HTTP请求，发送HTTP响应，这些东西都和WSGI有关。这个书上讲的少，我都是google各种博文，然后自己不断的做总结学习的。
+     
+     4. Restful API，这个现在是很火的了，书上描述的也是很少，所以google各种博文，自己总结
+
+
+
+
+   数据结构：
+      
+      1. 看完数据结构与算法：Python语言描述 (豆瓣) ，书里出现过的代码，我不是用打字的形式练习的，而是纸和笔一行一行抄下来理解的，两遍以后我基本上可以默写出书上的代码。
+      
+      2. 刷Leetcode，easy部分的题我刷了3遍，medium刷两遍，差不多都能背下来了。hard没碰，反正如果考到我就直接说不会，那种难度的题目也很少出现在面试笔试中。
+
+   Flask：
+
+     1. 看完这本书，第一遍看书的时候，书里面的代码抄了一遍，第二遍自己重构，第三遍加了一些功能，继续重构。
+
+     2. 一个提醒：不要多花时间在前端上面，页面难看就难看，无所谓的，前端太花时间了，当然你要是想转前端，当我没说。
+
+     3. 看源码，刚开始肯定看不懂，去网上搜人家看Flask源码所做的笔记，对着理解就行。源码我没全部看完，就找到工作了，Oh~~~~~~~
+
+     4. 面试过程中其实很少问Flask方面的内容，我的理解是，实际上你学了Flask，只会用Flask提供的API，一点用都没有，随便找个大学生，撸两周就会了，根据书本写个博客什么的，其实一点技术含量都没有。重要的是Web开发基础知识！！！
+
+     5. Flask的源码，必须看，如果问Flask的内容，基本上都会扯到Flask里面怎么实现的，比如问你Flask里面是怎么把视图函数和url联系在一起的，你只回答用用@app.route()装饰器那是肯定不行的，怎么着也要能说出Flask用了字典来存储{url:endpoint}, {endpoint:function}这两个映射关系，从而把url和视图函数联系在一起的。
+
+
+
+
+    我找的工作是有爬虫岗位的，是因为使用过scrapy框架爬过知乎，学习过程不多说了，就是看了几遍scrapy的官方文档，就开始上手做了，遇到坑就google，差不多这样。。分布式爬虫推荐两个项目：                 https://github.com/LiuXingMing/SinaSpider，
+                 https://github.com/ResolveWang/weibospider，
+能搞懂其中一个项目，找工作应该没啥问题的
+
+作者：
+
+      琥珀菜菜
+链接：https://www.zhihu.com/question/29775447/answer/131108219
+

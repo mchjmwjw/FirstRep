@@ -1,0 +1,2 @@
+windows:
+	启动mysql: net start mysql
