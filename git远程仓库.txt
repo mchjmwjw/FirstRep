@@ -1,46 +1,46 @@
-0. ´´½¨±¾µØ²Ö¿â
-   ´´½¨Ò»¸öÎÄ¼ş¼Ğ tutorials
-   ½øÈëÎÄ¼ş¼Ğ  
+ï»¿0. åˆ›å»ºæœ¬åœ°ä»“åº“
+   åˆ›å»ºä¸€ä¸ªæ–‡ä»¶å¤¹ tutorials
+   è¿›å…¥æ–‡ä»¶å¤¹  
    git init
 
-.1 ²é¿´¹¤×÷Ê÷ºÍË÷Òı×´Ì¬
+.1 æŸ¥çœ‹å·¥ä½œæ ‘å’Œç´¢å¼•çŠ¶æ€
    git status
 
-.2 ÍùË÷ÒıÌí¼ÓÎÄ¼ş(¶àÎÄ¼ş£¬¿Õ¸ñ·Ö¸î)
-   git add ÎÄ¼şÈ«Ãû(Â·¾¶)
-   git add .             //°ÑËùÓĞÎÄ¼ş¼ÓÈëµ½Ë÷Òı 
+.2 å¾€ç´¢å¼•æ·»åŠ æ–‡ä»¶(å¤šæ–‡ä»¶ï¼Œç©ºæ ¼åˆ†å‰²)
+   git add æ–‡ä»¶å…¨å(è·¯å¾„)
+   git add .             //æŠŠæ‰€æœ‰æ–‡ä»¶åŠ å…¥åˆ°ç´¢å¼• 
 
-.3 Ìí¼ÓºóĞèÖ´ĞĞcommitÃüÁî
-   git commit -m "Ìá½»±¸×¢(×Ô¼ºĞ´,±ØĞëÒªÓĞ)"
-   gitk   ´ò¿ª²é¿´¹¤¾ßGUI
+.3 æ·»åŠ åéœ€æ‰§è¡Œcommitå‘½ä»¤
+   git commit -m "æäº¤å¤‡æ³¨(è‡ªå·±å†™,å¿…é¡»è¦æœ‰)"
+   gitk   æ‰“å¼€æŸ¥çœ‹å·¥å…·GUI
 
-1. Ìí¼ÓÔ¶³Ì²Ö¿â
-   git remote add [²Ö¿âÃû]  https://github.com/mchjmwjw/FirstRep.git
+1. æ·»åŠ è¿œç¨‹ä»“åº“
+   git remote add [ä»“åº“å]  https://github.com/mchjmwjw/FirstRep.git
 
-2. ²é¿´µ±Ç°Ô¶³Ì¿â
+2. æŸ¥çœ‹å½“å‰è¿œç¨‹åº“
    git remote
 
-3. ÍÆËÍÔ¶³Ì²Ö¿â
-   git push -u [²Ö¿âÃû:origin] [·ÖÖ§:master]
+3. æ¨é€è¿œç¨‹ä»“åº“
+   git push -u [ä»“åº“å:origin] [åˆ†æ”¯:master]
 
-4. É¾³ıÔ¶³Ì²Ö¿â
-   git remote rm [²Ö¿â±ğÃû]
+4. åˆ é™¤è¿œç¨‹ä»“åº“
+   git remote rm [ä»“åº“åˆ«å]
 
 
-´Ó·ÖÖ§»ñÈ¡Ö¸¶¨ÎÄ¼ş
+ä»åˆ†æ”¯è·å–æŒ‡å®šæ–‡ä»¶
 git checkout master -- <path>/<file>
 <<<<<<< HEAD
 exp:  git checkout master -- public/stylesheets/styles.css
 
-²é¿´·ÖÖ§ git branch
-ÇĞ»»·ÖÖ§ git checkout ·ÖÖ§Ãû
-´´½¨tag  git tag tagÃû³Æ
-ÉÏ´«tag	 git puah origin tagÃû³Æ
+æŸ¥çœ‹åˆ†æ”¯ git branch
+åˆ‡æ¢åˆ†æ”¯ git checkout åˆ†æ”¯å
+åˆ›å»ºtag  git tag tagåç§°
+ä¸Šä¼ tag	 git puah origin tagåç§°
 
-É¾³ıbranch·ÖÖ§: git branch -D ·ÖÖ§Ãû
-É¾³ıtag·ÖÖ§:    git tag -d ·ÖÖ§Ãû  
+åˆ é™¤branchåˆ†æ”¯: git branch -D åˆ†æ”¯å
+åˆ é™¤tagåˆ†æ”¯:    git tag -d åˆ†æ”¯å  
 
-¸²¸Ç
+è¦†ç›–
 git fetch origin
 git reset --hard origin/master
 =======
