@@ -1,0 +1,48 @@
+﻿0. 创建本地仓库
+   创建一个文件夹 tutorials
+   进入文件夹  
+   git init
+
+.1 查看工作树和索引状态
+   git status
+
+.2 往索引添加文件(多文件，空格分割)
+   git add 文件全名(路径)
+   git add .             //把所有文件加入到索引 
+
+.3 添加后需执行commit命令
+   git commit -m "提交备注(自己写,必须要有)"
+   gitk   打开查看工具GUI
+
+1. 添加远程仓库
+   git remote add [仓库名]  https://github.com/mchjmwjw/FirstRep.git
+
+2. 查看当前远程库
+   git remote
+
+3. 推送远程仓库
+   git push -u [仓库名:origin] [分支:master]
+
+4. 删除远程仓库
+   git remote rm [仓库别名]
+
+
+从分支获取指定文件
+git checkout master -- <path>/<file>
+<<<<<<< HEAD
+exp:  git checkout master -- public/stylesheets/styles.css
+
+查看分支 git branch
+切换分支 git checkout 分支名
+创建tag  git tag tag名称
+上传tag	 git puah origin tag名称
+
+删除branch分支: git branch -D 分支名
+删除tag分支:    git tag -d 分支名  
+
+覆盖
+git fetch origin
+git reset --hard origin/master
+=======
+exp:  git checkout master -- public/stylesheets/styles.css
+>>>>>>> 668e171373a2106702722989ae6be454f2c5f7a1

@@ -1,0 +1,5 @@
+1. 打包: 
+	copy /b nw.exe+package.nw app.exe 
+
+2. 替换icon
+	winresourcer --operation=Update --exeFile=./reg/app.exe --resourceType=Icon --resourceName=IDR_MAINFRAME --lang=1033 --resourceFile=C:\\Users\\mcW\\Pictures\bitbug_favicon.ico 
